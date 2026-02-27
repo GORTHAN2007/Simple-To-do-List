@@ -15,7 +15,7 @@
 }
 .main_card{
     margin: 2rem;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 1rem;
     padding: 2rem;
     background: #f2f2f2;
@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
+
 }
 .header{
     padding: 1rem;
@@ -36,8 +37,34 @@
     border-radius: 50px;
     padding: 10px;
     margin-bottom: 10px;
+    font-family: Lato;
+    font-weight: 500;
+    border-left: 3px solid #e45955;;
 }
 .add_tasks_input{
     padding: 5px;
-    border-radius: 50px;
+    padding-left: 10px;
+    border-radius: 50px 0px 0px 50px;
+    font-family: Montserrat;
+    border: 2px solid black;
+    border-right: none;
+    outline: none;
+}
+.add_tasks_button{
+    padding: 5px;
+    border-radius: 0px 50px 50px 0px;
+    border: 2px solid black;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: white;
+    background-color: #e45955;
+    cursor: pointer;
+}
+.complete_task{
+    padding: 1.4px;
+    cursor: pointer;
+}
+.delete_task{
+    padding: 1.4px;
+    cursor: pointer;
 }

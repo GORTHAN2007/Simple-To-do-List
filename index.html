@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main_container">
@@ -14,16 +18,15 @@
             </header>
             <div class="add">
                 <form action="#" class="add_tasks">
-                    <input type="text" placeholder="Add Tasks" class="add_tasks_input">
-                    <button type="submit">ADD</button>
+                    <input type="text" placeholder="Add Tasks" class="add_tasks_input"><button type="submit" class="add_tasks_button">ADD</button>
                 </form>
             </div>
             <div class="task_list">
                 <ul class="list">
-                    <li class="task">Cook Lunch <span><button><i class="fa-solid fa-check"></i></button> <button class="delete_task"><i class="fa-solid fa-trash-can"></i></button></span></li>
-                    <li class="task">Study Maths <span><button><i class="fa-solid fa-check"></i></button> <button class="delete_task"><i class="fa-solid fa-trash-can"></i></button></span></li>
-                    <li class="task">Gym <span><button><i class="fa-solid fa-check"></i></button> <button class="delete_task"><i class="fa-solid fa-trash-can"></i></button></span></li>
-                    <li class="task">Buy Groceries <span><button><i class="fa-solid fa-check"></i></button> <button class="delete_task"><i class="fa-solid fa-trash-can"></i></button></span></li>
+                    <li class="task">Cook Lunch <span><button class="complete_task"><i class="fa-solid fa-check"></i></button> <button class="delete_task"><i class="fa-solid fa-trash-can"></i></button></span></li>
+                    <li class="task">Study Maths <span><button class="complete_task"><i class="fa-solid fa-check"></i></button> <button class="delete_task"><i class="fa-solid fa-trash-can"></i></button></span></li>
+                    <li class="task">Gym <span><button class="complete_task"><i class="fa-solid fa-check"></i></button> <button class="delete_task"><i class="fa-solid fa-trash-can"></i></button></span></li>
+                    <li class="task">Buy Groceries <span><button class="complete_task"><i class="fa-solid fa-check"></i></button> <button class="delete_task"><i class="fa-solid fa-trash-can"></i></button></span></li>
                 </ul>
             </div>
         </div>
