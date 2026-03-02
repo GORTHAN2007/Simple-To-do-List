@@ -13,14 +13,12 @@ A clean, modern, and responsive To-Do List application built with HTML5, CSS3, a
 ## Tech Stack
 
 - **HTML5**: Semantic structure.
-- **CSS3**: Modern styling with custom properties and transitions.
+- **CSS3**: Modern styling with custom properties, transitions and animations.
 - **JavaScript**: Core application logic and state management.
 
 ## Getting Started
 
-1. Clone the repository.
-2. Open `index.html` in your favorite browser.
-3. Start managing your tasks!
+- **Click on this link**: 
 
 ## Project Structure
 
