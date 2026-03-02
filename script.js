@@ -16,8 +16,12 @@ function adding_task(){
 
 function deleting_task(event){
     const our_target = event.target;
-    if (our_target.classList.contains("delete_task")){
-        our_target.parentElement.parentElement.remove();
+    if (our_target.classList.contains("delete_task") || our_target.parentElement.classList.contains("delete_task")){
+        if (our_target.tagName === "I"){
+            our_target.parentElement.parentElement.parentElement.remove();
+        } else{
+            our_target.parentElement.parentElement.remove();
+        }
     }
 
 }
