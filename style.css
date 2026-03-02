@@ -68,3 +68,15 @@
     padding: 1.4px;
     cursor: pointer;
 }
+.task_completed .task_content{
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(74, 74, 74);
+    color: rgba(0, 0, 0, 0.3);
+}
+.task_completed button {
+    opacity: 0.4;
+}
+.task.task_completed {
+    border: none;
+}
