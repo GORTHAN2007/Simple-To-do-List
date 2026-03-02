@@ -28,8 +28,8 @@ function deleting_task(event){
             tar.remove()
         },400)
     }
-
 }
+
 function completing_task(event){
     const our_target = event.target;
     if (our_target.classList.contains("complete_task") || our_target.parentElement.classList.contains("complete_task")){
