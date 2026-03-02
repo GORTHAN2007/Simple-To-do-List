@@ -40,6 +40,7 @@
     font-family: Lato;
     font-weight: 500;
     border-left: 3px solid #e45955;;
+    animation: adding 0.4s ease-out;
 }
 .add_tasks_input{
     padding: 5px;
@@ -59,14 +60,36 @@
     color: white;
     background-color: #e45955;
     cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.add_tasks_button:hover {
+    transform: scale(1.1); 
+    background-color: #f26b67; 
+}
+.add_tasks_button:active {
+    transform: scale(0.95); 
 }
 .complete_task{
     padding: 1.4px;
     cursor: pointer;
 }
+.complete_task:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+.complete_task:active {
+    transform: scale(0.95); 
+}
 .delete_task{
     padding: 1.4px;
     cursor: pointer;
+}
+.delete_task:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+.delete_task:active {
+    transform: scale(0.95); 
 }
 .task_completed .task_content{
     text-decoration: line-through;
@@ -79,4 +102,24 @@
 }
 .task.task_completed {
     border: none;
+}
+.delete {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+@keyframes adding {
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes completing {
+    0%{
+        
+    }
 }
